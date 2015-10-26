@@ -442,7 +442,7 @@
                 var scrollSize = scrollx.scroll.size[cssFullSize]() + (parseInt(scrollx.scroll.size.css(cssOffset), 10) || 0);
 
                 if (o.autoScrollSize) {
-                    scrollx.scrollbarSize = parseInt(scrollSize * AreaVisible / AreaSize, 10);
+                    scrollx.scrollbarSize = parseInt(37, 10);
                     scrollx.scroll.bar.css(cssSize, scrollx.scrollbarSize + 'px');
                 }
 
